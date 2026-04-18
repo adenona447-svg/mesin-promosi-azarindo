@@ -99,7 +99,7 @@ with col1:
     st.subheader("1. Visual & Identitas")
     brand = st.selectbox("Pilih Merek", ["AIMIX", "TATSUO"])
     
-    default_link = "https://aimix-self-loading-mixer.netlify.app/" if brand == "AIMIX" else "https://azarindo.id"
+    default_link = "https://azarindo.id" if brand == "AIMIX" else "https://azarindo.id"
     default_model = "SELF LOADING MIXER" if brand == "AIMIX" else "WHEEL CRAWLER EXCAVATOR JP80-9"
 
     # INIT SESSION STATE (Nilai Bawaan)
