@@ -86,7 +86,7 @@ class ProBrochure(FPDF):
         self.cell(0, 6, f'{self.brand_name.upper()} - SMART EQUIPMENT FOR SMART BUILDERS', align='C', ln=True)
         self.set_font('helvetica', 'I', 8)
         clean_link = self.website_link.replace("https://", "").replace("http://", "").rstrip("/")
-        self.cell(0, 4, f'Authorized Representative by AZARINDO.ID | {clean_link}', align='C', ln=True)
+        self.cell(0, 4, f'Authorized Representative by ADJIE | {clean_link}', align='C', ln=True)
 
 
 # --- UI DASHBOARD & SESSION STATE INIT ---
