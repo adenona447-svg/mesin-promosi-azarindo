@@ -391,3 +391,9 @@ if st.button("🌟 RENDER ULTIMATE BROCHURE", use_container_width=True, type="pr
                     if os.path.exists(f_path):
                         try: os.remove(f_path)
                         except: pass
+
+# ==========================================
+# FOOTER
+# ==========================================
+st.markdown("<div class='footer'>Architected & Developed by <b>Adjie Agung</b> <br> VORTEX 4.0 - Heavy-Asset Domination System</div>", unsafe_allow_html=True)
+
