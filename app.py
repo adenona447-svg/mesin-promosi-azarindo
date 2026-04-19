@@ -91,7 +91,7 @@ class ProBrochure(FPDF):
 
 # --- UI DASHBOARD & SESSION STATE INIT ---
 st.title("🚀 Ultimate Brochure Engine + Auto Layout")
-st.markdown("*Powered by Adjie - Azarindo*")
+st.markdown("*Powered by Azarindo*")
 
 col1, col2 = st.columns([1, 1.2], gap="large")
 
